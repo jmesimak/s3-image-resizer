@@ -1,6 +1,6 @@
 {
   "name": "s3-image-resize",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple image resizing tool for images in S3",
   "main": "index.js",
   "scripts": {
