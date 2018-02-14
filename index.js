@@ -20,5 +20,4 @@ module.exports = (width, height, s3Url, Bucket, Key, ACL, accessKeyId, secretAcc
   return getImageBuffer(s3Url)
     .then(buffer => sharp(buffer).resize(width, height).toBuffer())
     .then(imageBuffer => uploadToS3(s3, Bucket, Key, ACL, imageBuffer))
-    .catch(error => reject(error));
 };
