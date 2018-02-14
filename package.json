@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "url": "https://github.com/jmesimak/s3-image-resizer",
+  "homepage": "https://github.com/jmesimak/s3-image-resizer",
   "keywords": [],
   "author": "Jerry Mesimäki",
   "license": "MIT",
